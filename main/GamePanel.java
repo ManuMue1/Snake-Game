@@ -28,7 +28,7 @@ public class GamePanel extends JPanel implements ActionListener{
 	char direction = 'R';
 	boolean running = false;
 	int highScore;
-	File file = new File("C:\\Users\\manup\\Desktop\\HighScore.txt");
+	File file = new File("HighScore.txt");
 	Timer timer;
 	Random random;
 	GamePanel game;
